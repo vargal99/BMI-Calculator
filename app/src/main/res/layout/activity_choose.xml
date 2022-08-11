@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dbackgroundc"
+    tools:context=".ActivityChoose">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="27dp"
+        android:text="BMI Calculator"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/selectGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginBottom="35dp"
+        android:text="Please select your gender:"
+        android:textSize="25dp"
+        android:textColor="@color/purple_200"/>
+
+
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="212dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginBottom="110dp"
+        android:text="Continue"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/buttonbckgrnd"/>
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="222dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="420dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Female"
+            android:textSize="20dp"
+            android:textColor="@color/pink"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Male"
+            android:textSize="20dp"
+            android:textColor="@color/dblue"
+            android:shadowColor="@color/orange"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="201dp"
+        android:text="Enter your nickname:"
+        android:textSize="25dp"
+        android:textColor="@color/purple_200"/>
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="259dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/purple_200"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dbckgroundm"
+    tools:context=".ActivityMale">
+
+
+    <TextView
+        android:id="@+id/adressm"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center_horizontal"
+        android:text="BMI Calculator (Male)"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cmm"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="79dp"
+        android:text="cm"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Heightm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="182dp"
+        android:text="Height:"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/kgm"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="89dp"
+        android:text="kg"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+    <NumberPicker
+        android:id="@+id/heightPickerm"
+        android:layout_width="54dp"
+        android:layout_height="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="163dp"
+        android:solidColor="@color/blue" />
+
+    <NumberPicker
+        android:id="@+id/weightPickerm"
+        android:layout_width="54dp"
+        android:layout_height="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="162dp"
+        android:solidColor="@color/blue" />
+
+
+    <TextView
+        android:id="@+id/weightm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="321dp"
+        android:text="Weight:"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/resultm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="591dp"
+        android:layout_marginBottom="241dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messagem"
+        android:layout_width="369dp"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/calculatem"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="441dp"
+        android:background="@drawable/wbckgroundm"
+        android:text="Calculate"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>
